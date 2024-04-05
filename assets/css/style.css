@@ -1,4 +1,4 @@
-body {
+.body {
     margin: 0;
     padding: 0;
     background-color: black;
@@ -7,6 +7,8 @@ body {
 
 .center {
     text-align: center;
+    background-color: black;
+    color: white;
 }
 
 .raleway-text-title {
@@ -14,6 +16,9 @@ body {
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+    text-align: center;
+    background-color: black;
+    color: white;
 }
 
 .raleway-text-light {
@@ -23,7 +28,7 @@ body {
     font-style: normal;
 }
 
-header {
+.header {
     padding: 0;
     margin: 7px;
 }
@@ -48,12 +53,12 @@ header {
     height: 240px;
 }
 
-h1 {
+.h1 {
     font-size: 50px;
     margin: 7px;
 }
 
-h2 {
+.h2 {
     font-size: 44px;
 }
 
@@ -92,7 +97,7 @@ h2 {
     max-height: 200px;
 }
 
-footer {
+.footer {
     background-color: #221e17;
     font-size: 20px;
     height: 100px;
@@ -109,7 +114,7 @@ footer {
     margin-bottom: auto;
 }
 
-footer a {
+.footer a {
     text-decoration: none;
     color: white;
 }
